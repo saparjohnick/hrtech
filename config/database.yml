@@ -1,0 +1,22 @@
+# config/database.yml
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: username
+  password: username
+
+development:
+  <<: *default
+  database: hrtech_development
+
+test:
+  <<: *default
+  database: hrtech_test
+
+production:
+  <<: *default
+  database: hrtech_production
+  username: hrtech_username
+  password: <%= ENV['DATABASE_PASSWORD'] %>
