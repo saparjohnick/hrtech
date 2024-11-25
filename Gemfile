@@ -19,7 +19,7 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
-gem 'active_interaction', '~> 5.3'
+gem 'active_interaction', '~> 5.4'
 gem 'enumerize', '~> 2.4'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
